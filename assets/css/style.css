@@ -172,19 +172,23 @@ button {
 }
 
 .hero {
-    padding: 96px 0 40px;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;   /* căn giữa theo chiều dọc */
 }
 
 .hero__grid {
-    display: grid;
-    gap: 36px;
-    align-items: center;
+    width: 100%;
+    display: flex;
+    justify-content: center; /* căn giữa theo chiều ngang */
 }
 
 .hero__content {
-    display: grid;
-    gap: 16px;
+    text-align: center;
+    max-width: 720px; /* giữ bố cục đẹp, không quá rộng */
+    margin: 0 auto;
 }
+
 
 .eyebrow {
     text-transform: uppercase;
@@ -207,9 +211,13 @@ button {
 
 .hero__actions {
     display: flex;
-    flex-wrap: wrap;
-    gap: 12px;
+    justify-content: center; /* CĂN GIỮA NGANG */
+    align-items: center;
+    gap: 14px;               /* khoảng cách giữa các nút */
+    flex-wrap: wrap;         /* không vỡ layout trên mobile */
+    margin: 0 auto;
 }
+
 
 .hero__meta {
     display: grid;
