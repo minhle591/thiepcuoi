@@ -1,0 +1,18 @@
+<IfModule mod_dir.c>
+    DirectoryIndex index-nhagai.html index-nhagai-an.html index-nhatrai.html index-nhatrai-15h.html index-nhatrai-16h.html
+</IfModule>
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    # Don't rewrite existing files or directories.
+    RewriteCond %{REQUEST_FILENAME} -f [OR]
+    RewriteCond %{REQUEST_FILENAME} -d
+    RewriteRule ^ - [L]
+
+    RewriteRule ^nhagai-vuquy/?$ index-nhagai.html [L]
+    RewriteRule ^nhagai-an/?$ index-nhagai-an.html [L]
+    RewriteRule ^nhatrai-thanhhon/?$ index-nhatrai.html [L]
+    RewriteRule ^nhatrai-15h/?$ index-nhatrai-15h.html [L]
+    RewriteRule ^nhatrai-16h/?$ index-nhatrai-16h.html [L]
+</IfModule>
