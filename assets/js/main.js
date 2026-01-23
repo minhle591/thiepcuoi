@@ -32,11 +32,20 @@ const EVENT_DETAILS_BY_PAGE = {
     },
   },
   "nhagai-vuquy": {
+    "2026-02-01": {
+      title: "Chủ nhật 01/02/2026",
+      items: [
+        "17:30: Bữa ăn thân mật tại tư gia nhà gái",
+      ],
+    },
     "2026-02-02": {
       title: "Thứ hai 02/02/2026",
-      items: ["08:00: Lễ Vu Quy tổ chức tại tư gia nhà gái"],
+      items: [
+        "08:00: Lễ Vu Quy tổ chức tại tư gia nhà gái",
+      ],
     },
   },
+
   "nhatrai-15h": {
     "2026-02-01": {
       title: "Chủ nhật 01/02/2026",
