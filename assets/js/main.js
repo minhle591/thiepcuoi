@@ -46,7 +46,25 @@ const EVENT_DETAILS_BY_PAGE = {
     },
   },
 
-
+  "nhatrai-15h": {
+    "2026-02-01": {
+      title: "Chủ nhật 01/02/2026",
+      items: ["15:00: Bữa ăn thân mật tại tư gia nhà trai"],
+    },
+  },
+  "nhatrai-16h": {
+    "2026-02-01": {
+      title: "Chủ nhật 01/02/2026",
+      items: ["16:00: Bữa ăn thân mật tại tư gia nhà trai"],
+    },
+  },
+  "nhatrai-thanhhon": {
+    "2026-02-02": {
+      title: "Thứ hai 02/02/2026",
+      items: ["11:00: Lễ Thành Hôn tổ chức tại tư gia nhà trai"],
+    },
+  },
+};
 
 const TOAST_DURATION = 2600;
 
